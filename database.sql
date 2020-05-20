@@ -827,6 +827,12 @@ ALTER TABLE `dailyfeatures`
   MODIFY `feaID` int(11) NOT NULL AUTO_INCREMENT;
 
 --
+-- AUTO_INCREMENT for table `difvote`
+--
+ALTER TABLE `difvote`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
 -- AUTO_INCREMENT for table `friendreqs`
 --
 ALTER TABLE `friendreqs`
