@@ -163,7 +163,7 @@ CREATE TABLE `dailyfeatures` (
 -- Table structure for table `difvote`
 --
 
-CREATE TABLE `dailyfeatures` (
+CREATE TABLE `difvote` (
   `id` int(11) NOT NULL,
   `levelID` int(11) NOT NULL,
   `userID` int(11) NOT NULL,
@@ -472,6 +472,7 @@ CREATE TABLE `roles` (
   `actionRateDifficulty` int(11) NOT NULL DEFAULT 0,
   `actionRequestMod` int(11) NOT NULL DEFAULT 0,
   `actionSuggestRating` int(11) NOT NULL DEFAULT 0,
+  `toolCommentban` int(11) NOT NULL DEFAULT 0,
   `toolLeaderboardsban` int(11) NOT NULL DEFAULT 0,
   `toolPackcreate` int(11) NOT NULL DEFAULT 0,
   `toolModactions` int(11) NOT NULL DEFAULT 0,
